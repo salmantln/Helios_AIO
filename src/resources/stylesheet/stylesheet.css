@@ -1,0 +1,218 @@
+#vbox {
+    -fx-background-color: #121212;
+}
+
+#tabPane {
+    -fx-background-color: #121212;
+    -fx-pref-width: 1250
+}
+
+#tableView .column-header {
+    -fx-background-color: #121212;
+
+}
+
+
+.close-btn {
+    -fx-background-color: transparent;
+}
+
+.close-btn:hover {
+    -fx-background-color: #E81123;
+}
+
+/*.min-btn {*/
+/*    -fx-background-color: transparent;*/
+/*}*/
+
+/*.min-btn:hover {*/
+/*    -fx-background-color: #171717;*/
+/*}*/
+
+.txtfield {
+    -fx-background-color: #3B4148;
+    -fx-background-radius: 0px;
+    -fx-prompt-text-fill: #ADADAD;
+    -fx-text-fill: #FFFFFF;
+}
+
+.txtfield:focused {
+    -fx-background-color: #292C34;
+    -fx-background-radius: 0px;
+    -fx-prompt-text-fill: #ADADAD;
+    -fx-text-fill: #FFFFFF;
+}
+
+.login-btn {
+    -fx-background-color: #EA4C88;
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Main Tabs */
+.tab {
+    -fx-pref-width: 230;
+    -fx-pref-height: 60;
+    -fx-background-color: #121212;
+}
+
+
+.tab-header-background {
+    -fx-background-color: #121212;
+    /*-fx-pref-width: 60;*/
+}
+
+.jfx-tab-pane .tab-selected-line {
+    -fx-pref-width: 10;
+    -fx-background-color: red;
+    /*-fx-background-color: #121212;*/
+}
+
+/* All Tableviews */
+.table-view {
+    -fx-control-inner-background: #212121;
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 1;
+    -fx-selection-bar-non-focused: #008287;
+}
+
+
+.table-view .column-header-background {
+    -fx-background-color: #212121;
+    -fx-border-color: transparent transparent rgba(255, 255, 255, 0.3) transparent;
+    -fx-border-width: 1;
+    -fx-background-insets: 0;
+
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-text-fill: #d8d8d8;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 25;
+    /*-fx-border-width: 0 0 0 0;*/
+    -fx-text-fill: #d8d8d8;
+}
+
+.table-cell {
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-text-fill: #d8d8d8;
+    -fx-alignment: center-left;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #008287;
+}
+
+.label {
+    -fx-text-fill: white;
+
+}
+
+#TaskView {
+    -fx-background-color: #292C34;
+}
+
+
+/*Proberen met buttons*/
+.button {
+    fx-padding: 10px;
+    -fx-spacing: 30px;
+}
+
+#hBoxBtns {
+    fx-padding: 10px;
+}
+
+/*
+close button
+ */
+
+
+In JavaFX styling is done by using CSS.
+#minBtn {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+}
+
+#minBtn:focused {
+    -fx-border-color: transparent, black;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid;
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+#minBtn:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+
+}
+
+#closeLbl, #minLbl {
+    -fx-cursor: hand;
+}
+
+#hBoxBtns {
+    -fx-background-color: #535353;
+    /*-fx-label-padding: 20px;*/
+    /*-fx-start-margin: 10px;*/
+}
+
+#profileLbl {
+    -fx-background-color: white;
+}
+
+#BillingView {
+    -fx-background-color: lightblue;
+}
+
+#cardDetailLbl, #addressBanner {
+    -fx-font-size: 30px;
+}
+
+#cardNmrText {
+    -fx-min-width: 10px;
+}
+
+/*Proxyview*/
+#testProxyBtn, #AddAllProxyBtn, #deleteAllProxyBtn {
+    -fx-pref-width: 200px;
+}
+
+#ProxyView {
+    -fx-background-color: #212121;
+}
+#proxylist{
+    -fx-background-color: red;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+}
+
+#Proxy2Grid{
+    -fx-background-color: lightblue;
+}
+
+/*#sunImage {*/
+/*    -fx-border-image-width: 50px;*/
+/*    -fx-border-image-height: 50px ;*/
+/*    !*-fx-max-width: 50px;*!*/
+/*    !*-fx-max-height: 50px;*!*/
+/*}*/

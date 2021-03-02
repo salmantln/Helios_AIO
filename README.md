@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="src/resources/icons/sun.png?width=26&height=26">
+  <img src="src/resources/icons/sun.png" width=256 height=256>
   <h3 align="center">Helios AIO</h3>
 
   <p align="center">

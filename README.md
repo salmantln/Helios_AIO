@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/562041975797317643/770110287378120704/Icon.png?width=256&height=256">
+  <img src="src/resources/icons/sun.png?width=26&height=26">
   <h3 align="center">Helios AIO</h3>
 
   <p align="center">
